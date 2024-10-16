@@ -11,12 +11,12 @@ document.addEventListener('DOMContentLoaded',function(){const body=document.body
   const gameButton1=document.createElement('button');
   gameButton1.textContent='ゲーム1をプレイ';
   styleGameButton(gameButton1)
-  gameButton1.addEventListener('click',()=>{showModal('ゲーム１の説明：概要','./nekkoro.html');});
+  gameButton1.addEventListener('click',()=>{showModal('ゲーム１の説明：概要','./nekkoro.html','./image/スクリーンショット 2024-10-15 120401.png');});
   gameSelectionDiv.appendChild(gameButton1);
   const gameButton2=document.createElement('button');
   gameButton2.textContent='ゲーム２をプレイ';
   styleGameButton(gameButton2);
-  gameButton2.addEventListener('click',()=>{showModal('ゲーム２の説明：概要oooooooooooooooooooooooooooooooooooooooooooooooooo  oooooooooooooooooooooooooooooooooooooooooooooooooooooo','./sunaipu.html','./image/スクリーンショット 2024-06-20 220154.png');});
+  gameButton2.addEventListener('click',()=>{showModal('ゲーム２の説明：概要','./sunaipu.html','./image/スクリーンショット 2024-06-20 220154.png');});
   gameSelectionDiv.appendChild(gameButton2);
   body.appendChild(gameSelectionDiv);
   function startGame(game){
